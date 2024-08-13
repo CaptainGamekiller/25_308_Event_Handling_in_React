@@ -37,6 +37,8 @@ function App() {
       {/* 定義一個輸入框，提示文字為 "What's your name?" */}
       <button
         // 設定按鈕的背景顏色，當 isMousedOver 為 true 時為黑色，否則為白色
+        // 大括號第一功能(外層):在HTML內插入JS表達式。
+        // 大括號第四功能(內層):包住條件渲染。
         style={{ backgroundColor: isMousedOver ? "black" : "white" }}
         onClick={handleClick}
         // 當按鈕被點擊時調用 handleClick 函數
